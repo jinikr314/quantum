@@ -12,7 +12,7 @@ st.title("주택 가격 예측 서비스!")
 # GitHub Raw 파일 URL과 모델 유형
 GITHUB_RAW_URL = "https://github.com/jinikr314/quantum/raw/refs/heads/main/xgb_model.pkl"
 MODEL_TYPE = "XGBoost"  # "fastai", "scikit-learn Random Forest", or "XGBoost"
-CSV_FILE_URL = ""
+CSV_FILE_URL = "https://github.com/jinikr314/quantum/raw/refs/heads/main/%ED%95%99%EC%8A%B5%20%EB%8D%B0%EC%9D%B4%ED%84%B0%201.csv"
 
 # GitHub에서 파일 다운로드 및 로드
 def download_model(url, output_path="model.pkl"):
