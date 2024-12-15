@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np  # numpy를 import해야 함
 
 # Streamlit 제목
-st.title("주택 가격 예측 서비스!")
+st.title("양자화된 물질의 운동량 예측")
 
 # GitHub Raw 파일 URL과 모델 유형
 GITHUB_RAW_URL = "https://github.com/jinikr314/quantum/raw/refs/heads/main/xgb_model.pkl"
